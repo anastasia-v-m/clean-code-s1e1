@@ -5,28 +5,28 @@
   font-family: Lato, sans-serif;
 }
 
-.info {
+.info-section {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.info img {
+.info-section img {
   width: 100%;
 }
 
-.info .more_inf {
+.info-section .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .info {
+  .info-section {
     text-align: center;
   }
 }
 
-.tasks-wrapper {
+.tasks-section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-tasks {
   display: flex;
 }
 
@@ -48,13 +48,13 @@
 }
 
 .task-item, 
-.task-kind { /*не нужно на теги h3=taskkind*/
+.task-kind { 
   list-style: none;
 }
 
 .input-textbox,
 .done-marker,
-.new-task-textbox, /*не нужно на эти теги*/
+.new-task-textbox, 
 .btn {
   outline: none;
 }
@@ -109,7 +109,7 @@
   margin: 0 0 20px;
 }
 
-.task-row-wrapper .new-task-textbox {
+.new-tasks .new-task-textbox {
   width: 318px;
 }
 
